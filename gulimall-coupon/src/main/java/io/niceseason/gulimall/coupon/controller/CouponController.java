@@ -27,8 +27,8 @@ import io.niceseason.common.utils.R;
  * @date 2020-05-27 20:03:33
  */
 @RestController
-@RefreshScope
 @RequestMapping("coupon/coupon")
+@RefreshScope
 public class CouponController {
     @Autowired
     private CouponService couponService;
